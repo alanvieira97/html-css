@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li> <a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+             <p>O PlayStation 2 (PS2) é um console de jogos eletrônico desenvolvido pela Sony, lançado inicialmente em 2000 no Japão e posteriormente em outras regiões, incluindo o Brasil, onde teve lançamento oficial apenas em 2009. Como sucessor do PlayStation original, o PS2 fez parte da sexta geração de consoles, competindo com o Nintendo GameCube, o Sega Dreamcast e o Microsoft Xbox.</p>
+
+            <p>Com mais de 160 milhões de unidades vendidas, é o console mais vendido de todos os tempos. Um de seus principais diferenciais foi a inclusão de um leitor de DVD, o que aumentou seu apelo comercial frente a outros aparelhos da época. Sua retrocompatibilidade com jogos e acessórios do PS1 também contribuiu para seu sucesso inicial, oferecendo uma grande biblioteca de jogos desde o lançamento.</p>
+
+            <p>O PS2 utilizava o processador Emotion Engine, desenvolvido com a Toshiba, considerado muito potente para a época. Em 2004, ganhou uma versão menor e mais leve, o modelo slim. Mesmo após o lançamento do PlayStation 3, em 2006, o PS2 continuou sendo produzido e recebendo novos jogos até o encerramento de sua produção em 2013, tornando-se um dos consoles com maior longevidade na indústria. Ao todo, foram lançados mais de 4.000 jogos para o PS2, com mais de 1,5 bilhão de cópias vendidas.</p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
