@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo Flex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="normal">
+        <h1>Exemplo de conteúdo flexível</h1>
+        <p>Conteúdo flexível, no contexto do Flexbox, refere-se à capacidade de um layout se adaptar dinamicamente ao espaço disponível. Isso significa que os elementos dentro de um contêiner conseguem crescer, encolher e se reorganizar automaticamente, conforme o tamanho da tela ou da janela.</p>
+    </header>
+    <main>
+        <section class="flex-content">
+            <article class="media-text">
+                <div class="text">
+                    <h2>Elemento Media->Text </h2>
+                    <p>O Flexbox atua sobre dois elementos principais:
+                    O contêiner flexível – é o elemento "pai", onde você ativa o sistema Flexbox.Os itens flexíveis – são os elementos "filhos", que serão organizados dentro do contêiner de forma automática.
+                    O sistema é baseado em dois eixos:
+                    Eixo principal – é o eixo no qual os itens são dispostos. Por padrão, é horizontal (da esquerda para a direita).
+                    Eixo transversal – é perpendicular ao eixo principal. Por padrão, é vertical.Você pode alterar esses eixos para configurar como os itens são organizados no espaço, seja em linha, em coluna, ou até com quebra de linha.</p>
+                </div>
+                <div class="media">
+                    <img src="site.png" alt="Criando site flexbox">
+                </div>
+            </article>
+            <article class="text-media">
+                <div class="text">
+                    <h2>Elemento Text->Media</h2>
+                    <p>Distribuição inteligente: os itens podem ocupar o espaço disponível de forma equilibrada.
+                    Alinhamento automático: é possível alinhar itens no centro, nas extremidades ou distribuir igualmente.</p>
+                    <p>Adaptação ao conteúdo: os itens podem se expandir ou contrair conforme necessário.
+                    Centralização facilitada: permite centralizar itens tanto vertical quanto horizontalmente com poucas configurações.
+                    Eliminação de hacks antigos: muitas técnicas antigas de layout (como floats e clear) tornam-se desnecessárias.</p>
+                </div>
+                <div class="media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VBGMnFHRqcY?si=ZBIWZuR-10uZ_iuq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section> <!-- Fim da seção Flex-Content -->
+        <section class="normal">
+            <h2>Conteúdo normal</h2>
+            <p>Flexbox é um modelo de layout que organiza elementos em um contêiner de forma flexível e responsiva. Ele usa dois eixos: o principal (por padrão, horizontal) e o transversal (perpendicular). Os itens podem crescer, encolher, quebrar linha e se alinhar automaticamente conforme o espaço disponível.</p>
+        </section>
+    </main>
+</body>
+</html>
